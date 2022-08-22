@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;                       
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.main-nav ul {                                    
+    background: DodgerBlue;                        
+    text-align: center;                           
+    list-style: none;                             
+    margin: 0;                                    
+    padding: 1.5em;                               
+}
+.main-nav ul li {                                 
+    color: #f7fff7ff;                             
+    font: 18px/16px Roboto, sans-serif;           
+    display: inline-block;                        
+    position: relative;                           
+    padding: 20px 35px;      
+    background: SteelBlue;                       
+    cursor: pointer;                              
+    width: 195px;                                
+ }
+ .main-nav ul li:hover {                         
+    background: #24737f;                         
+    color: #fff;                                 
+ }
+ .main-nav ul li ul {                            
+    padding: 0;                                   
+    position: absolute;                            
+    top: 48px;                                   
+    left: -10000px;                              
+    width: 195px;                                 
+ }
+ .main-nav ul li ul li {                         
+    background: #24737f;                          
+    display: block;                               
+    color: #fff;                                 
+    padding: 20px 35px;                          
+ }
+ .main-nav ul li ul li:hover { 
+     background: #164850;                         
+} 
+ .main-nav ul li:hover ul {                       
+    display: block;                              
+    left :0px;                                  
+ }

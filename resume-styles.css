@@ -1,0 +1,105 @@
+
+
+html {
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #343434;  
+    margin: 0;  
+    padding: 0;  
+    font-size: 16px; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+a {
+   color: #ffe66dff;  
+}
+a:hover {
+    text-decoration: none;  
+}
+
+h1 {
+    font-size: 60px;  
+    text-shadow: 2px 2px #FFC300; 
+}
+h2 {
+    font-size: 30px;  
+}
+h1, h2 {  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    margin: 0; 
+}
+
+p, li {
+    line-height: 1.5; 
+}
+
+.profile {  
+    width: 800px;  
+    margin: 0 auto;  
+    padding: 60px 0; 
+}
+
+
+
+header {
+    background: #ffe66dff;  
+    text-align: center;  
+}
+#main-page {  
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin: 12px;
+}
+
+
+.works {
+    background: 	#0040ff;
+}
+.works a{
+    color: 		#4000ff;
+}
+.works .btn {
+    background: #00bfff;
+    color: #f7fff7ff;  
+    font-size: 14px;  
+    text-decoration: none;  
+    padding: 8px;  
+    border-radius: 4px;  
+    display: inline-block;  
+}
+.works .btn:hover {
+    background: 	#0080ff;
+
+}
+.work-index {
+    overflow: hidden;
+    border-bottom: 1px dashed 	#00bfff;
+    padding: 25px 0;  
+}
+.work-index img {
+    float: left;  
+    margin-right: 20px;  
+}
+.work-index h3 {  
+    margin-top: 0;
+}
+
+.experience {
+    background: 	#0080ff;
+}
+
+.education {
+   background-color:#00bfff;	
+}
+
+footer {
+    background: 	#0080ff;
+    color: #ffffff;  
+}
